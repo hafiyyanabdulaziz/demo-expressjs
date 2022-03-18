@@ -5,7 +5,7 @@
  */
 module.exports = {
   development: {
-    client: "mysql",
+    client: "mysql2",
     connection: {
       host: "remotemysql.com",
       port: 3306,
